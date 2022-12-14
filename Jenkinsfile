@@ -12,7 +12,7 @@ pipeline{
         
         stage("deploy using ansible"){
             steps{
-                ansiblePlaybook credentialsId: 'Ansible', disableHostKeyChecking: true, installation: 'Ansible', inventory: 'dev.inv', playbook: 'apache.yml'
+                ansiblePlaybook credentialsId: 'Ansible', disableHostKeyChecking: true, installation: 'Ansible', inventory: 'dev.inv', playbook: 'httpdserver.yaml'
             }
         }
     }
