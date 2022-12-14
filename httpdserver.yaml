@@ -1,0 +1,18 @@
+---
+- hosts: webservers
+  become: True
+  tasks:
+    - name: Install httpd server
+        apt:
+          name: "httpd"
+          state: "present"
+    - name: Start apache server
+        service: 
+          name: httpd
+          state: started
+          enabled: true
+    - name: Deploy webserver
+        copy:
+          src: html/index.html
+          dest: /var/www/html/
+...
