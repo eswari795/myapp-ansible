@@ -1,0 +1,93 @@
+header{
+   background-color: blue;
+    position: fixed;
+    width:100%;
+  font-display: block;
+  height:10%;
+}
+.last{
+    margin-top:0px;
+}
+ 
+nav{
+    list-style-type: none;
+   
+    left:50%;
+    top:0px;
+    overflow: hidden;
+    position:fixed;
+    background-color: blue;
+   }
+li{
+    display:inline;
+    padding-right:15px;
+    float:left;
+}
+li a{
+    text-decoration: none;
+    font-family: 'Trykker';
+    font-size :15px;
+    color:aliceblue;
+    text-align: center;
+    display: block;
+    padding-top: 3px;
+    font-size: 20px;
+    
+}
+.p{
+    list-style-type: circle;
+    display:block;
+}
+nav a:hover{
+    background-color: blanchedalmond;
+    color:black;
+}
+.home{
+    background-color: lightseagreen;
+}
+
+footer{
+    background-color: blue;
+    color:rgb(250, 252, 252);
+    height:50px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+body{
+    margin:0px;
+    margin-left: 0px;
+   
+}
+.hero{
+    background-image: url("../img/hero.jpg");
+    height: 33.33%;
+    width: 100%;
+    
+}
+h1{
+    font-family: 'Diplomata SC';
+    font-size: 30px;
+    color:white;
+    
+
+}
+.card{
+    box-shadow: 0px 8px 16px 0px rgb(156, 154, 154);
+    transition: 0.3s;
+}
+.card hover{
+    box-shadow: 0px 16px 32px 0px rgb(105, 103, 103);
+}
+h2{
+    font-family:'Slackey';
+    font-size: 25px;
+}
+p{
+    font-family: 'Spirax';
+    font-size: 17px;
+}
+/* .footlist{ */
+    
+/* } */
